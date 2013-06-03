@@ -99,7 +99,7 @@
             this.SearchBox.Location = new System.Drawing.Point(249, 32);
             this.SearchBox.Name = "SearchBox";
             this.SearchBox.Size = new System.Drawing.Size(353, 20);
-            this.SearchBox.TabIndex = 3;
+            this.SearchBox.TabIndex = 2;
             this.SearchBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
@@ -110,7 +110,7 @@
             this.button1.Location = new System.Drawing.Point(168, 30);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
+            this.button1.TabIndex = 1;
             this.button1.Text = "Поиск";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -175,7 +175,7 @@
             this.CatList.Location = new System.Drawing.Point(0, 105);
             this.CatList.Name = "CatList";
             this.CatList.Size = new System.Drawing.Size(123, 334);
-            this.CatList.TabIndex = 7;
+            this.CatList.TabIndex = 13;
             this.CatList.Click += new System.EventHandler(this.CatList_Click);
             this.CatList.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CatList_MouseClick);
             this.CatList.SelectedIndexChanged += new System.EventHandler(this.CatList_SelectedIndexChanged);
@@ -200,7 +200,7 @@
             this.ButtonAdd.Location = new System.Drawing.Point(614, 32);
             this.ButtonAdd.Name = "ButtonAdd";
             this.ButtonAdd.Size = new System.Drawing.Size(75, 23);
-            this.ButtonAdd.TabIndex = 9;
+            this.ButtonAdd.TabIndex = 3;
             this.ButtonAdd.Text = "Добавить";
             this.ButtonAdd.UseVisualStyleBackColor = true;
             this.ButtonAdd.Click += new System.EventHandler(this.button2_Click);
@@ -221,7 +221,7 @@
             this.createDoc.Location = new System.Drawing.Point(470, 58);
             this.createDoc.Name = "createDoc";
             this.createDoc.Size = new System.Drawing.Size(145, 23);
-            this.createDoc.TabIndex = 12;
+            this.createDoc.TabIndex = 8;
             this.createDoc.Text = "Сформировать документ";
             this.createDoc.UseVisualStyleBackColor = true;
             this.createDoc.Click += new System.EventHandler(this.createDoc_Click);
@@ -232,7 +232,7 @@
             this.addAll.Location = new System.Drawing.Point(362, 58);
             this.addAll.Name = "addAll";
             this.addAll.Size = new System.Drawing.Size(103, 23);
-            this.addAll.TabIndex = 13;
+            this.addAll.TabIndex = 7;
             this.addAll.Text = "Добавить все";
             this.addAll.UseVisualStyleBackColor = true;
             this.addAll.Visible = false;
@@ -264,7 +264,7 @@
             this.rateInc.Location = new System.Drawing.Point(171, 82);
             this.rateInc.Name = "rateInc";
             this.rateInc.Size = new System.Drawing.Size(109, 17);
-            this.rateInc.TabIndex = 16;
+            this.rateInc.TabIndex = 5;
             this.rateInc.Text = "По возрастанию";
             this.rateInc.UseVisualStyleBackColor = true;
             this.rateInc.CheckedChanged += new System.EventHandler(this.rateInc_CheckedChanged);
@@ -276,7 +276,7 @@
             this.rateDec.Location = new System.Drawing.Point(298, 81);
             this.rateDec.Name = "rateDec";
             this.rateDec.Size = new System.Drawing.Size(93, 17);
-            this.rateDec.TabIndex = 17;
+            this.rateDec.TabIndex = 6;
             this.rateDec.TabStop = true;
             this.rateDec.Text = "По убыванию";
             this.rateDec.UseVisualStyleBackColor = true;
@@ -288,7 +288,7 @@
             this.PDFtoFile.Location = new System.Drawing.Point(621, 58);
             this.PDFtoFile.Name = "PDFtoFile";
             this.PDFtoFile.Size = new System.Drawing.Size(86, 23);
-            this.PDFtoFile.TabIndex = 18;
+            this.PDFtoFile.TabIndex = 9;
             this.PDFtoFile.Text = "Создать  PDF";
             this.PDFtoFile.UseVisualStyleBackColor = true;
             this.PDFtoFile.Visible = false;
@@ -300,7 +300,7 @@
             this.ClearToPrintBox.Location = new System.Drawing.Point(713, 58);
             this.ClearToPrintBox.Name = "ClearToPrintBox";
             this.ClearToPrintBox.Size = new System.Drawing.Size(106, 23);
-            this.ClearToPrintBox.TabIndex = 19;
+            this.ClearToPrintBox.TabIndex = 10;
             this.ClearToPrintBox.Text = "Очистить корзину";
             this.ClearToPrintBox.UseVisualStyleBackColor = true;
             this.ClearToPrintBox.Visible = false;
@@ -311,7 +311,7 @@
             this.DownLoad.Location = new System.Drawing.Point(695, 32);
             this.DownLoad.Name = "DownLoad";
             this.DownLoad.Size = new System.Drawing.Size(156, 23);
-            this.DownLoad.TabIndex = 20;
+            this.DownLoad.TabIndex = 4;
             this.DownLoad.Text = "Загрузить базу";
             this.DownLoad.UseVisualStyleBackColor = true;
             this.DownLoad.Visible = false;
@@ -323,7 +323,7 @@
             this.Load_toPrint.Location = new System.Drawing.Point(825, 58);
             this.Load_toPrint.Name = "Load_toPrint";
             this.Load_toPrint.Size = new System.Drawing.Size(120, 23);
-            this.Load_toPrint.TabIndex = 21;
+            this.Load_toPrint.TabIndex = 12;
             this.Load_toPrint.Text = "Загрузить Корзину";
             this.Load_toPrint.UseVisualStyleBackColor = true;
             this.Load_toPrint.Visible = false;
