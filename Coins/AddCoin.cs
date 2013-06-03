@@ -119,11 +119,19 @@ namespace Coins
 
             for (int i = 0; i < Program.mainform.All.Count; i++)
             {
-                if (Program.mainform.All[i].coin.number == int.Parse(CoinNumberTxt.Text))
+                try
                 {
-                    MessageBox.Show("Монета с таким номером уже существует");
-                    return false;
+                    if (Program.mainform.All[i].coin.number == int.Parse(CoinNumberTxt.Text))
+                    {
+                        MessageBox.Show("Монета с таким номером уже существует");
+                        return false;
 
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    break;
                 }
 
             }
