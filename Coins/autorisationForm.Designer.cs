@@ -63,6 +63,7 @@
             this.Auth_name.Name = "Auth_name";
             this.Auth_name.Size = new System.Drawing.Size(207, 29);
             this.Auth_name.TabIndex = 2;
+            this.Auth_name.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.Auth_name_ControlAdded);
             this.Auth_name.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Auth_name_KeyPress);
             // 
             // Auth_pass

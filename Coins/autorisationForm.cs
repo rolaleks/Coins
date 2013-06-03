@@ -144,6 +144,8 @@ namespace Coins
             Program.mainform = new Form1();
             Program.mainform.Show();
             Program.Auth_form.Close();*/
+            Auth_name.Focus();
+            Auth_name.Select();
         }
 
         private void Auth_pass_KeyPress(object sender, KeyPressEventArgs e)
@@ -159,6 +161,11 @@ namespace Coins
             {
                 Enter.PerformClick();
             }
+        }
+
+        private void Auth_name_ControlAdded(object sender, ControlEventArgs e)
+        {
+            Auth_name.Focus();
         }
     }
 }
